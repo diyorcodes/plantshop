@@ -1,1 +1,1 @@
-# plantshop
+![alt text](img/Cover.png)
