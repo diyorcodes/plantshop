@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/*--- Header Part Started ---*/
+/* -- Header Part Started -- */
 
 header {
     width: 100%;
@@ -118,6 +118,8 @@ h4{
     margin-top: -35.5px;
 }
 
+/* -- Header Headline Texts -- */
+
 .h1 h1 {
     font-family: 'WorkSans-Bold';
     color: #FFFFFF;
@@ -140,5 +142,45 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* -- Header Elements -- */
+
+.circle-1 {
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(2px);
+
+}
+
+.circle-2 {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.elements-1 {
+    position: absolute;
+    padding: 0 80px;
+}
+
+.elements-2 {
+    position: absolute;
+    margin: 170px;
+}
+
+.elements-3 {
+    display: flex;
+    justify-content: end;
+    margin-top: 180px;
+    margin-right: 100px;
+   
 }
 
