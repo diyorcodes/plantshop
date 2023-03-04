@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url(font/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'WorkSans-SemiBold';
+    src: url(font/WorkSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'WorkSans-Medium';
+    src: url(font/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url(font/WorkSans-Regular.ttf);
+}
