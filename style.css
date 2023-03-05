@@ -120,33 +120,22 @@ h4{
 
 /* -- Header Headline Texts -- */
 
-.h1 h1 {
-    font-family: 'WorkSans-Bold';
-    color: #FFFFFF;
-    font-size: 70px;
-    line-height: 75px;
-    margin-top: 70px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header .down-part {
+    width: 85%;
+    margin: 75px auto 0;
+    /* display: flex; */
+    position: relative;
 }
 
-.p1 {
-    font-family: 'WorkSans-Regular';
-    color: #FFFFFF;
-    font-size: 24px;
-    line-height: 30px;
-    margin-top: 30px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header .down-part .first-box {
+    width: 100%;
 }
 
-/* -- Header Elements -- */
-
-.circle-1 {
+header .down-part .first-box .circle-1 {
+    /* position: absolute; */
+    position: relative;
+    top: 15rem;
+    left: -1.5rem;
     height: 54px;
     width: 54px;
     border-radius: 50%;
@@ -156,32 +145,93 @@ h4{
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #FFFFFF;
     backdrop-filter: blur(2px);
-
 }
 
-.circle-2 {
+header .down-part .first-box .circle-2 {
+    position: relative;
     height: 16px;
     width: 16px;
     border-radius: 50%;
     background-color: #FFFFFF;
 }
 
-.elements-1 {
-    position: absolute;
-    padding: 0 80px;
+header .down-part .first-box .circle--1 {
+    position: relative;
+    top: 23rem;
+    left: 3rem;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(2px);
 }
 
-.elements-2 {
-    position: absolute;
-    margin: 170px;
+header .down-part .first-box .circle--2 {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+ 
+header .down-part .second-box {
+    width: 100%;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
 }
 
-.elements-3 {
+header .down-part .second-box h1 {
+    font-family: 'WorkSans-Bold';
+    color: #FFFFFF;
+    font-size: 70px;
+    line-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .down-part .second-box .p1 {
+    font-family: 'WorkSans-Regular';
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .elements-3 {
     display: flex;
     justify-content: end;
     margin-top: 180px;
     margin-right: 100px;
-}
+} */
 
 /* .search-box {
     
@@ -200,7 +250,7 @@ h4{
     backdrop-filter: blur(10px);
 } */
 
-.search-btn {
+/* .search-btn {
     color: #FFFFFF;
     width: 50px;
     height: 50px;
@@ -217,15 +267,17 @@ h4{
     border: none;
     background: none;
     
-   
+    */
     /* outline: none; */
-    float: left;
+    /* float: left;
     padding: 0;
     font-size: 20px;
     line-height: 23px;
     width: 400px;
-   
-}
+
+/* ::placeholder {
+    color: #FFFFFF;
+} */
 
 ::placeholder {
     color: #FFFFFF;
@@ -233,11 +285,13 @@ h4{
 
 input {
     position: absolute;
-    display: flex;
+    border: none;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     top: 50%;
     left: 50%;
+    width: 400px;
     transform: translate(-50%,-100%);
     height: 70px;
     border-radius: 50px;
@@ -246,3 +300,14 @@ input {
     border: 1px solid #FFFFFF;
     backdrop-filter: blur(10px);
 }
+
+.search-text {
+    font-family: 'WorkSans-Regular';
+    border: none;
+    background: none;
+    font-size: 20px;
+    line-height: 23px;
+    border: 1px solid #FFFFFF;
+}
+
+
