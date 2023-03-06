@@ -132,7 +132,6 @@ header .down-part .first-box {
 }
 
 header .down-part .first-box .circle-1 {
-    /* position: absolute; */
     position: relative;
     top: 15rem;
     left: -1.5rem;
@@ -210,5 +209,54 @@ header .down-part .second-box .p1 {
     justify-content: left;
     align-items: center;
 }
+
+header .down-part .second-box .search-box {
+    margin: auto;
+    top: 47px;
+    position: relative;
+    width: 460px;
+    height: 42px;
+    padding: 24px 30px 24px 30px;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+}
+
+header .down-part .second-box .search-box .search-text {
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: 'WorkSans-Regular';
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+}
+
+::placeholder{
+    color: #FFFFFF;
+}
+
+.search-text:focus{
+    outline: none;
+}
+
+header .down-part .second-box .search-box .search-btn {
+    position: absolute;
+    color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #2af598, #009efd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+    right: 38px;
+}
+
+
 
 
