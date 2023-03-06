@@ -118,12 +118,11 @@ h4{
     margin-top: -35.5px;
 }
 
-/* -- Header Headline Texts -- */
+/* -- Header Elements Part -- */
 
 header .down-part {
     width: 85%;
     margin: 75px auto 0;
-    /* display: flex; */
     position: relative;
 }
 
@@ -184,7 +183,6 @@ header .down-part .second-box {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
 }
 
 header .down-part .second-box h1 {
@@ -256,6 +254,37 @@ header .down-part .second-box .search-box .search-btn {
     top: 30px;
     right: 38px;
 }
+
+header .down-part .third-box {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+header .down-part .third-box .circle-1 {
+    position: relative;
+    top: 15rem;
+    left: 1rem;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(2px);
+}
+
+header .down-part .third-box .circle-2 {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+/* -- Header Part End -- */
 
 
 
