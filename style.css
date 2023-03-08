@@ -395,8 +395,8 @@ main .products {
 main .products .cart-1 h4 {
     font-family: 'WorkSans-Medium';
     color: #081323;
-    font-size: 64px;
-    line-height: 75px;
+    font-size: 60px;
+    line-height: 60px;
 
 }
 
@@ -416,27 +416,86 @@ main .products .cart-1 .cart-p .fa-arrow-right {
 }
 
 .card{
-    position: absolute;
+    /* position: absolute; */
     margin-top: 275px;
     background: #C1D0E4;
-    border-radius: 50px 50px 0px 0px;
-    width: 329px;
-    height: 510px;
+    border-radius: 50px;
+    width: 300px;
+    height: 450px;
+   /* display: flex; */
+    
 }
 
 .card-body{
+    /* position: absolute; */
+    background: red;
+    border-radius: 50px;
+    width: 300px;
+    height: 225px;
 
-    position: absolute;
-    background: #FFFFFF;
-    border-radius: 50px 50px 0px 0px;
-    width: 329px;
-    height: 255px;
-
+     margin-top: 46px;
+    
+    
 }
 
 .card-title {
-    
+    font-family: 'WorkSans-Medium';
+
+    color: #081323;
+    font-size: 32px;
+    line-height: 37px;  
 }
+
+.fa-star{
+    width: 19px;
+    height: 18px;
+    background: #F2C94C;
+    background-image: linear-gradient(to right, #F2C94C);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.star{
+    padding: 26px; 
+}
+
+.card-text{
+    font-family: 'WorkSans-Medium';
+    font-size: 32px;
+    line-height: 37px;
+    color: #081323;
+    padding: 38px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.fa-circle-plus{
+    width: 58px;
+    height: 58px;
+    background-image: linear-gradient(to right, #2af598, #009efd);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.card-img-top{
+    width: 310px;
+    height: 320px;
+    margin-top: -120px;
+}
+
+.card-group{
+   margin: 10px;
+   
+}
+
+
 
 
 
