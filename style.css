@@ -631,12 +631,12 @@ section {
     margin-top: 185px;
 }
 
+/* <!-- Block Part --> */
+
 section .section-content {
     width: 85%;
     margin: 75px auto 0;
     position: relative;
-    /* display: flex;
-    justify-content: space-between;   */
 }
 
 section .section-content .title-h .h5 {
@@ -659,12 +659,6 @@ section .section-content .blocks {
     margin-top: 32px;
     column-gap: 30px;
     display: flex;
-    
-    
-}
-
-.block-1 {
-    
 }
 
 section .section-content .blocks .block-1 .block-h {
@@ -682,22 +676,22 @@ section .section-content .blocks .block-1 .block-p {
     margin-top: 8px;
 }
 
-.img-plant1 {
-    width: 600px;
-    height: 600px;
-    border-radius: 50px;
-}
-
-.img-plant{
+section .img-plant{
     width: 85%;
     margin: 75px auto 0;
     display: flex;
     justify-content: flex-end;
     margin-top: -640px;
-    
-
-    
 }
+
+section .img-plant .img-plant1 {
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+}
+
+/* <!-- Section Part End --> */
+
 
 
 
