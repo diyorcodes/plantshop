@@ -155,8 +155,8 @@ header .down-part .first-box .circle-2 {
 
 header .down-part .first-box .circle--1 {
     position: relative;
-    top: 23rem;
-    left: 3rem;
+    top: 26.5rem;
+    left: -0.4rem;
     height: 54px;
     width: 54px;
     border-radius: 50%;
@@ -188,6 +188,7 @@ header .down-part .second-box {
 header .down-part .second-box h1 {
     font-family: 'WorkSans-Bold';
     color: #FFFFFF;
+    margin-top: 70px;
     font-size: 70px;
     line-height: 90px;
     display: flex;
@@ -263,7 +264,7 @@ header .down-part .third-box {
 
 header .down-part .third-box .circle-1 {
     position: relative;
-    top: 15rem;
+    top: 18rem;
     left: 1rem;
     height: 54px;
     width: 54px;
@@ -293,14 +294,14 @@ header .tooltip {
   
 header .tooltip .tooltiptext {
     font-family: 'WorkSans-Bold';
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 25px;
+    line-height: 25px;
     visibility: hidden;
-    Width: 200px;
-    Height: 100px;  
+    Width: 170px;
+    Height: 80px;  
     background-color: rgb(255, 255, 255, 0.2);
     color: #FFFFFF;
-    padding: 20px ;
+    padding: 15px ;
     border-radius: 24px;
     border: 1px solid #FFFFFF;
     backdrop-filter: blur(10px);
@@ -308,15 +309,15 @@ header .tooltip .tooltiptext {
 }
 
 header .tooltip .tooltiptext p {
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 14px;
     color: #FFFFFF;
     margin-top: 12px;
 }
 
 header .tooltip:hover .tooltiptext {
     visibility: visible;
-    top: -140px;
+    top: -115px;
 }
 
 header .tooltip .tooltiptext::after {
@@ -422,7 +423,7 @@ main .products .card {
     height: 450px;
 }
 
-main .products .card .card-img-top{
+main .products .card .card-img-top {
     width: 310px;
     height: 320px;
     margin-top: -120px;
@@ -624,6 +625,79 @@ main .plants .img-card .item .img-3 {
 
 /* <!-- Section Part Started --> */
 
+section {
+    width: 100%;
+    height: 100%; 
+    margin-top: 185px;
+}
+
+section .section-content {
+    width: 85%;
+    margin: 75px auto 0;
+    position: relative;
+    /* display: flex;
+    justify-content: space-between;   */
+}
+
+section .section-content .title-h .h5 {
+    font-family: 'WorkSans-Medium';
+    color: #081323;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+section .section-content .title-h .p5 {
+    font-family: 'WorkSans-Regular';
+    color: #4F4F4F;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    height: 82px;
+}
+
+section .section-content .blocks {
+    margin-top: 32px;
+    column-gap: 30px;
+    display: flex;
+    
+    
+}
+
+.block-1 {
+    
+}
+
+section .section-content .blocks .block-1 .block-h {
+    font-family: 'WorkSans-Medium';
+    color: #000000;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+section .section-content .blocks .block-1 .block-p {
+    font-family: 'WorkSans-Regular';
+    color: #4F4F4F;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 8px;
+}
+
+.img-plant1 {
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+}
+
+.img-plant{
+    width: 85%;
+    margin: 75px auto 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -640px;
+    
+
+    
+}
 
 
 
