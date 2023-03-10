@@ -429,11 +429,12 @@ main .products .card .card-img-top{
 }
 
 main .products .card .card-body {
-    background: red;
+    background: #FFFFFF;
     border-radius: 50px;
     width: 300px;
     height: 225px;
     margin-top: 46px;
+    border: 1px solid rgba(164, 114, 114, 0.2);
 }
 
 main .products .card .card-body .star {
@@ -486,10 +487,6 @@ main .plants {
     width: 85%;
     margin: 75px auto 0;
     position: relative;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; */
 }
 
 main .plants .plants-text {
@@ -515,6 +512,112 @@ main .plants .plants-text .p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+main .plants .img-card {
+    width: 85%;
+    margin: 75px auto 0;
+    margin-top: 100px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(2,1fr);
+    gap: 35px;
+    transition: 1s;
+
+}
+
+main .plants .img-card .item .img-1 {
+    width: 628px;
+    height: 500px;
+    position: absolute;
+    border-radius: 50px;
+    z-index: -1; 
+}
+
+.room-1 {
+    font-family: 'WorkSans-SemiBold';
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 75px;
+    width: 628px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    border-radius: 50px;
+}
+
+.item:hover .room-1 {
+    opacity: 1;
+    transition: 1s;
+}
+
+main .plants .img-card .item .img-2 {
+    width: 628px;
+    height: 935px;
+    position: absolute;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+main .plants .img-card .item2 {
+    grid-column: span 1;
+    grid-row: span 2;
+    position: relative;
+}
+
+.room-2 {
+    font-family: 'WorkSans-SemiBold';
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 75px;
+    width: 628px;
+    height: 935px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    border-radius: 50px;
+    
+}
+
+.item:hover .room-2 {
+    opacity: 1;
+    transition: 1s;
+}
+
+main .plants .img-card .item .img-3 {
+    width: 628px;
+    height: 400px;
+    position: absolute;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.room-3 {
+    font-family: 'WorkSans-SemiBold';
+    color: #FFFFFF;
+    line-height: 75px;
+    font-size: 64px;
+    width: 628px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    border-radius: 50px;
+}
+
+.item:hover .room-3 {
+    opacity: 1;
+    transition: 1s;
 }
 
 /* <!-- Main Part End --> */
