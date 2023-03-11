@@ -722,11 +722,77 @@ section .section-content .blocks .fa-temperature-quarter {
     margin: 0px 0px 0px 8px;
 }
 
-
-
-  
-  
 /* <!-- Section Part End --> */
+
+/* <!-- Footer Part Started --> */
+
+footer {
+    width: 100%;
+    height: 100%; 
+    margin-top: 200px;
+    background: linear-gradient(93.99deg, #566270 0.51%, #283444 100%);
+}
+
+footer .footer-content {
+    width: 85%;
+    margin: 75px auto 0;
+    position: relative;
+  
+    
+    
+}
+
+footer .footer-content .second-box {
+   position: relative;
+    margin: auto 0;
+    
+    width: 463px;
+    height: 71px;
+    /* padding: 24px 30px 24px 30px; */
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+}
+
+footer .footer-content .second-box .search-text {
+    position: absolute;
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: 'WorkSans-Regular';
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+}
+
+footer .footer-content .search-box .search-btn {
+    position: absolute;
+    font-family: 'WorkSans-Regular';
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    width: 145px;
+    height: 47px;
+    /* padding: 12px 24px; */
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #2af598, #009efd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 12px;
+    right: 12px;
+}
+
+
+
+
+
+
+
+
 
 
 
