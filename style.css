@@ -532,7 +532,7 @@ main .plants .img-card {
     justify-content: space-around;
     grid-template-columns: repeat(2,1fr);
     gap: 35px;
-    transition: 1s;
+    transition: 0.5s;
 
 }
 
@@ -562,7 +562,7 @@ main .plants .img-card .item .img-1 {
 
 .item:hover .room-1 {
     opacity: 1;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 main .plants .img-card .item .img-2 {
@@ -696,6 +696,8 @@ section .section-content .blocks .block-1 .block-p {
     margin-top: 8px;
 }
 
+/* <!-- Img Plant Part --> */
+
 section .img-plant{
     width: 85%;
     margin: 75px auto 0;
@@ -727,6 +729,7 @@ section .section-content .blocks .fa-temperature-quarter {
 /* <!-- Footer Part Started --> */
 
 footer {
+    display: flex;
     width: 100%;
     height: 100%; 
     margin-top: 200px;
@@ -736,7 +739,6 @@ footer {
 footer .footer-content {
     width: 85%;
     margin: 75px auto 0;
-    padding: 80px 0px 0px 0px;
     position: relative;
 }
 
@@ -745,14 +747,13 @@ footer .footer-content .new {
     color: #FFFFFF;
     font-size: 45px;
     line-height: 50px;
+    margin-top: 50px;
 }
 
+/* <!-- Email Part --> */
+
 footer .footer-content .second-box {
-   position: relative;
-    margin: auto 0;
-    width: 463px;
-    height: 71px;
-    /* padding: 24px 30px 24px 30px; */
+    width: 400px;
     border-radius: 50px;
     backdrop-filter: blur(10px);
     margin-top: 25px;
@@ -781,21 +782,54 @@ footer .footer-content .search-box .search-btn {
     color: #FFFFFF;
     width: 145px;
     height: 47px;
-    /* padding: 12px 24px; */
     border-radius: 25px;
     background-image: linear-gradient(to right, #2af598, #009efd);
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 12px;
-    right: 12px;
+    top: 7px;
+    right: 8px;
 }
 
-.footer-menu {
+/* <!-- Menu Part --> */
+
+footer .footer-content .footer-menu {
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: end;
+    gap: 50px;
+    margin-top: -100px;
+    margin-bottom: 36px;
 }
 
+footer .footer-content .footer-menu .menu-h {
+    font-family: 'WorkSans-Bold';
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+footer .footer-content .footer-menu .menu-p {
+    font-family: 'WorkSans-Medium';
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 14px;
+}
+
+footer .footer-content .footer-end {
+    font-family: 'WorkSans-Regular';
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* <!-- Footer Part End --> */
 
 
 
