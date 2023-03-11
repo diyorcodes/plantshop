@@ -27,6 +27,13 @@ header {
     position: relative;
 }
 
+header .header-shadow {
+    margin-top: 430px;
+    width: 100%;
+    height: 35%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 83.65%);
+}
+
 /* <!-- Nav Part --> */
 
 header .nav {
@@ -290,6 +297,7 @@ header .down-part .third-box .circle-2 {
 header .tooltip {
     position: relative;
     display: inline-block;
+    
 }
   
 header .tooltip .tooltiptext {
@@ -318,6 +326,7 @@ header .tooltip .tooltiptext p {
 header .tooltip:hover .tooltiptext {
     visibility: visible;
     top: -115px;
+    
 }
 
 header .tooltip .tooltiptext::after {
@@ -657,8 +666,19 @@ section .section-content .title-h .p5 {
 
 section .section-content .blocks {
     margin-top: 32px;
-    column-gap: 30px;
+    column-gap: 35px;
     display: flex;
+}
+
+section .section-content .blocks .block-icon {
+    padding: 0px 0px 0px 15px;
+    font-size: 50px;
+    background-image: linear-gradient(to right, #2af598, #009efd);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }
 
 section .section-content .blocks .block-1 .block-h {
@@ -690,6 +710,22 @@ section .img-plant .img-plant1 {
     border-radius: 50px;
 }
 
+section .section-content .blocks .block-icon .fa-seedling {
+    margin: 0px 0px 0px -10px;
+}
+
+section .section-content .blocks .fa-sun {
+    margin: 0px 0px 0px -10px;
+}
+
+section .section-content .blocks .fa-temperature-quarter {
+    margin: 0px 0px 0px 8px;
+}
+
+
+
+  
+  
 /* <!-- Section Part End --> */
 
 
