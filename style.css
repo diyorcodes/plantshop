@@ -736,21 +736,26 @@ footer {
 footer .footer-content {
     width: 85%;
     margin: 75px auto 0;
+    padding: 80px 0px 0px 0px;
     position: relative;
-  
-    
-    
+}
+
+footer .footer-content .new {
+    font-family: 'WorkSans-Medium';
+    color: #FFFFFF;
+    font-size: 45px;
+    line-height: 50px;
 }
 
 footer .footer-content .second-box {
    position: relative;
     margin: auto 0;
-    
     width: 463px;
     height: 71px;
     /* padding: 24px 30px 24px 30px; */
     border-radius: 50px;
     backdrop-filter: blur(10px);
+    margin-top: 25px;
 }
 
 footer .footer-content .second-box .search-text {
@@ -785,6 +790,12 @@ footer .footer-content .search-box .search-btn {
     top: 12px;
     right: 12px;
 }
+
+.footer-menu {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
 
 
 
