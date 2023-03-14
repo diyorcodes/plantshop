@@ -50,6 +50,7 @@ header .nav .nav__logo {
     line-height: 38px;
     color: #FFFFFF;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 header .nav .nav__menu, ul {
@@ -364,15 +365,6 @@ main .main-menu .shapping {
     gap: 34px;
 }
 
-main .main-menu .shapping .cub {
-    background-image: linear-gradient(to right, #2af598, #009efd);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-
 main .main-menu .shapping h3 {
     font-family: 'WorkSans-Medium';
     color: #081323;
@@ -415,6 +407,7 @@ main .products .cart-1 .cart-p {
     font-size: 24px;
     line-height: 28px;
     margin-top: 42px;
+    cursor: pointer;
 }
 
 main .products .cart-1 .cart-p .fa-arrow-right {
@@ -430,6 +423,14 @@ main .products .card {
     border-radius: 50px;
     width: 300px;
     height: 450px;
+    transition: 0.1s;
+}
+
+main .products .card:hover {
+    transition: 0.1s;
+    -webkit-box-shadow: 0px 4px 20px 4px rgba(191, 194, 196, 0.192);
+    -moz-box-shadow: 0px 4px 20px 4px rgba(191, 194, 196, 0.192);
+    box-shadow: 0px 50px 50px 5px rgba(191, 194, 196, 0.192);
 }
 
 main .products .card .card-img-top {
@@ -485,12 +486,7 @@ main .products .card .card-body .card-text {
 main .products .card .card-body .card-text .fa-circle-plus {
     width: 58px;
     height: 58px;
-    background-image: linear-gradient(to right, #2af598, #009efd);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+   
 }
 
 /* <!-- Plants Part --> */
@@ -672,15 +668,19 @@ section .section-content .blocks {
     display: flex;
 }
 
-section .section-content .blocks .block-icon {
-    padding: 0px 0px 0px 15px;
-    font-size: 50px;
+.fa-cube, .fa-wallet, .fa-headset, .fa-circle-plus, .fa-sun, .fa-droplet, .fa-seedling, .fa-temperature-quarter {
     background-image: linear-gradient(to right, #2af598, #009efd);
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; 
+}
+
+section .section-content .blocks .block-icon {
+    padding: 0px 0px 0px 15px;
+    font-size: 50px;
+    cursor: default;
 }
 
 section .section-content .blocks .block-1 .block-h {
